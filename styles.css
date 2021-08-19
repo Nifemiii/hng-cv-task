@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5rem 8rem;
+  background-color: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.left-side {
+  position: relative;
+  width: 30%;
+}
+
+.right-side {
+  width: 70%;
+}
+
+.polygon {
+  width: 100%;
+  height: 20.5rem;
+  background-color: rgba(165, 42, 42, 0.096);
+  clip-path: polygon(0 0, 100% 0, 100% 77%, 0 35%);
+}
+
+.triangle {
+  width: 100%;
+  height: 25rem;
+  background-color: rgba(128, 128, 128, 0.158);
+  clip-path: polygon(0 6.8%, 100% 41%, 0 100%);
+  margin-top: -15rem;
+}
+
+.avatar {
+  position: absolute;
+  top: 8rem;
+  left: 30%;
+}
+
+.zuri-logo {
+  position: absolute;
+  z-index: 5;
+  top: 2rem;
+  left: 23%;
+}
+
+.triangle-image {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.leftside-content {
+  margin-top: -14.7rem;
+  padding: 18.2rem 2.5rem 2.5rem 2.5rem;
+  background-color: rgba(128, 128, 128, 0.068);
+  clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 100%);
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.616);
+  margin-bottom: 1.5rem;
+}
+
+.contact-divs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact img {
+  width: 8%;
+}
+
+.contact-divs span {
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+.profile h2 {
+  margin-top: 3.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.61);
+  margin-bottom: 1.8rem;
+  text-transform: uppercase;
+}
+
+.profile p {
+  font-size: 1.6rem;
+}
+
+.skills h2 {
+  margin-top: 3.5rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.61);
+}
+
+.skills ul {
+  font-size: 1.6rem;
+  padding: 2.5rem;
+}
+
+.skills ul li {
+  margin-bottom: 1.5rem;
+}
+
+.heading {
+  text-align: center;
+  height: 45rem;
+  background-color: rgba(165, 42, 42, 0.199);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 35%);
+  padding-top: 4rem;
+}
+
+.rightside-content {
+  margin-top: -9rem;
+  padding: 2rem;
+}
+
+.heading h1 {
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.heading p {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 1rem;
+}
+
+.education h2 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  border-bottom: 1px solid gray;
+  margin-top: -3.9rem;
+  margin-bottom: 2rem;
+}
+
+.degree {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+p span {
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-right: 1.6rem;
+}
+
+.edu-note {
+  font-size: 1.6rem;
+}
+
+.edu-2 {
+  margin-top: 5rem;
+}
+
+.professional h2 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  border-bottom: 1px solid gray;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.digifigs-part h3 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.courses-part {
+  margin-top: 4rem;
+}
+
+.courses-part h3 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.digifigs-part p {
+  font-size: 1.6rem;
+}
+
+.courses-part p {
+  font-size: 1.6rem;
+}
+
+.p-note {
+  margin-top: 1.5rem;
+}
